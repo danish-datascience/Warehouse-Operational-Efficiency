@@ -1,0 +1,92 @@
+Warehouse Operational Efficiency Analysis
+📌 Project Overview
+
+Warehouse operations are a critical component of the FMCG supply chain. This project analyzes warehouse performance data to identify operational inefficiencies affecting productivity and resource utilization. Using Exploratory Data Analysis (EDA), clustering techniques, and machine learning, the project uncovers key factors influencing warehouse throughput and provides actionable business recommendations.
+
+🎯 Business Problem
+
+Supply Flow FMCG Solutions experienced inconsistent warehouse performance due to:
+
+Infrastructure limitations
+Transport delays
+Staffing shortages
+Storage constraints
+Equipment breakdowns
+Uneven operational efficiency across regions
+
+The objective was to analyze warehouse performance data and identify the major drivers of operational inefficiency.
+
+🛠️ Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+Google Colab
+Microsoft Excel
+📊 Skills Demonstrated
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Feature Engineering
+Correlation Analysis
+Clustering
+Machine Learning
+Data Visualization
+Business Analytics
+KPI Analysis
+🔄 Project Workflow
+1️⃣ Data Collection
+Imported warehouse operational data from Excel files.
+2️⃣ Data Cleaning
+Removed inconsistencies
+Handled missing values
+Encoded categorical variables
+Treated outliers using the IQR method
+3️⃣ Exploratory Data Analysis
+
+Performed:
+
+Correlation Analysis
+Zone-wise Performance Analysis
+Warehouse Performance Comparison
+KPI Evaluation
+Visualization of operational patterns
+4️⃣ Feature Engineering
+
+Created a new feature:
+
+Issue Ratio =
+(Storage Issues + Warehouse Breakdowns)
+/ Product Throughput
+
+to better quantify operational inefficiencies.
+
+5️⃣ Machine Learning
+
+Applied:
+
+Random Forest
+Gradient Boosting
+
+Ensemble model achieved 91.5% accuracy for performance analysis.
+
+📈 Key Insights
+
+✔ Storage issues showed the strongest positive correlation with warehouse throughput.
+
+✔ Distance from the hub negatively impacted warehouse performance.
+
+✔ East zone warehouses experienced the highest operational issue scores.
+
+✔ Staffing shortages and equipment breakdowns contributed to reduced operational efficiency.
+
+✔ Government certification status also influenced warehouse performance.
+
+💡 Business Recommendations
+Improve infrastructure in high-risk warehouse zones.
+Increase staffing in underperforming warehouses.
+Implement predictive maintenance.
+Deploy real-time inventory monitoring systems.
+Introduce IoT-based warehouse automation.
+Adopt predictive analytics for proactive decision-making.
